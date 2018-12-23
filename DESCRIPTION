@@ -8,7 +8,7 @@ Description: A package for running the computational Theory of Mind in agent bas
 License: MIT
 Encoding: UTF-8
 LazyData: true
-Imports:
+Depends:
     tidyverse,
     raster, 
     reshape2,
@@ -19,6 +19,5 @@ Imports:
     RColorBrewer, 
     Hmisc,
     gmodels,
-    dplyr,
-    tibble
+    dplyr
 RoxygenNote: 6.1.1

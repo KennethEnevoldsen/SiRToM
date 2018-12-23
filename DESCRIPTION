@@ -1,0 +1,23 @@
+Package: SiRToM
+Type: Package
+Title: SirToM: Simulation in R: Theory of Mind.
+Version: 0.1.0
+Author: K. Enevoldsen and P. Waade
+Maintainer: K. Enevoldsen <kennethcenevoldsen@gmail.com>
+Description: A package for running the computational Theory of Mind in agent based simulations. It relies on devaine et al. (2014a, 2014b, 2017) Theory of mind implemtation. 
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports:
+    tidyverse,
+    raster, 
+    reshape2,
+    brms, 
+    boot, 
+    rethinking, 
+    groupdata2, 
+    RColorBrewer, 
+    Hmisc,
+    gmodels,
+    dplyr
+RoxygenNote: 6.1.1

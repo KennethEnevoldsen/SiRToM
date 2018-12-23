@@ -19,5 +19,6 @@ Imports:
     RColorBrewer, 
     Hmisc,
     gmodels,
-    dplyr
+    dplyr,
+    tibble
 RoxygenNote: 6.1.1
